@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "*": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern":[
+    " # ",
+    " # ",
+    " * "
+  ],
+  "result": {
+    "item": "coppercraft:copper_sword"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "coppercraft:netherite_iron_ingot"
+  },
+  "base": {
+    "item": "coppercraft:copper_sword"
+  },
+  "result": {
+    "item": "coppercraft:iron_mixed_copper_sword"
+  }
+}

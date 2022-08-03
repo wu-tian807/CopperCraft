@@ -1,0 +1,46 @@
+{
+  "parent": "coppercraft:coppercraft/copper_mixed_golden_equipments",
+  "criteria": {
+    "get_iron_mixed_copper_suits": {
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "coppercraft:iron_mixed_copper_boots"
+            ],
+            "items":[
+              "coppercraft:iron_mixed_copper_chestplate"
+            ],
+            "items":[
+              "coppercraft:iron_mixed_copper_leggings"
+            ],
+            "items":[
+              "coppercraft:iron_mixed_copper_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.coppercraft.iron_mixed_copper_suits.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "coppercraft:iron_mixed_copper_helmet"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.coppercraft.iron_mixed_copper_suits.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_iron_mixed_copper_suits"
+    ]
+  ]
+}

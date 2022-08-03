@@ -1,0 +1,12 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+  "layer0": "coppercraft:item/copper_sword"
+ },
+
+ "overrides": [
+  { "predicate": {"custom_model_data": 1}, "model": "coppercraft:item/copper_sword_corrosion"},
+  { "predicate": {"custom_model_data": 2}, "model": "coppercraft:item/copper_sword_corrosion_one"},
+  { "predicate": {"custom_model_data": 3}, "model": "coppercraft:item/copper_sword_corrosion_two"}
+ ]
+}

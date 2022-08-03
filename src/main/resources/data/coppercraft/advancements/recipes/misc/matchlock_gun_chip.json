@@ -1,0 +1,34 @@
+{
+  "parent": "coppercraft:recipes/root",
+  "criteria": {
+    "has_matchlock_gun_chip_empty": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "coppercraft:matchlock_gun_chip_empty"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "coppercraft:matchlock_gun_chip"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_matchlock_gun_chip_empty",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "coppercraft:matchlock_gun_chip"
+    ]
+  }
+}

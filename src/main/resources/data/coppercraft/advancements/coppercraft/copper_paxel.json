@@ -1,0 +1,37 @@
+{
+  "parent": "coppercraft:coppercraft/copper_ingot",
+  "criteria": {
+    "get_copper_paxel": {
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "coppercraft:copper_paxel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.coppercraft.copper_paxel.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coppercraft:copper_paxel"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.coppercraft.copper_paxel.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_copper_paxel"
+    ]
+  ]
+}

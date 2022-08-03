@@ -1,0 +1,48 @@
+{
+  "parent": "coppercraft:recipes/root",
+  "criteria": {
+    "has_neitherite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "coppercraft:neitherite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "coppercraft:iron_mixed_copper_pickaxe_smithing",
+        "recipe": "coppercraft:iron_mixed_copper_axe_smithing",
+        "recipe": "coppercraft:iron_mixed_copper_shovel_smithing",
+        "recipe": "coppercraft:iron_mixed_copper_hoe_smithing",
+        "recipe": "coppercraft:iron_mixed_copper_helmet_smithing",
+        "recipe": "coppercraft:iron_mixed_copper_chestplate_smithing",
+        "recipe": "coppercraft:iron_mixed_copper_leggings_smithing",
+        "recipe": "coppercraft:iron_mixed_copper_boots_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_neitherite_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "coppercraft:iron_mixed_copper_pickaxe_smithing",
+      "coppercraft:iron_mixed_copper_axe_smithing",
+      "coppercraft:iron_mixed_copper_shovel_smithing",
+      "coppercraft:iron_mixed_copper_hoe_smithing",
+      "coppercraft:iron_mixed_copper_helmet_smithing",
+      "coppercraft:iron_mixed_copper_chestplate_smithing",
+      "coppercraft:iron_mixed_copper_leggings_smithing",
+      "coppercraft:iron_mixed_copper_boots_smithing"
+    ]
+  }
+}

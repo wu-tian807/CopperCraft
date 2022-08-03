@@ -1,0 +1,49 @@
+{
+  "parent": "coppercraft:coppercraft/copper_ingot",
+  "criteria": {
+    "get_copper_mixed_golden_equipments": {
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "coppercraft:copper_mixed_golden_pickaxe"
+            ],
+            "items":[
+              "coppercraft:copper_mixed_golden_sword"
+            ],
+            "items":[
+              "coppercraft:copper_mixed_golden_hoe"
+            ],
+            "items":[
+              "coppercraft:copper_mixed_golden_shovel"
+            ],
+            "items":[
+              "coppercraft:copper_mixed_golden_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.coppercraft.copper_mixed_golden_equipments.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coppercraft:copper_mixed_golden_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.coppercraft.copper_mixed_golden_equipments.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_copper_mixed_golden_equipments"
+    ]
+  ]
+}

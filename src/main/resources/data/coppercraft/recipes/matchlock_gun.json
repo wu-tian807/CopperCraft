@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "*": {
+      "tag": "minecraft:planks"
+    },
+    "@": {
+      "item": "minecraft:redstone"
+    },
+    "+": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern":[
+    "@*@",
+    "#+#",
+    "*+*"
+  ],
+  "result": {
+    "item": "coppercraft:matchlock_gun"
+  }
+}

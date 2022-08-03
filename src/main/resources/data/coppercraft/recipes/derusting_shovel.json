@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "*": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern":[
+    "#",
+    "*"
+  ],
+  "result": {
+    "item": "coppercraft:derusting_shovel"
+  }
+}

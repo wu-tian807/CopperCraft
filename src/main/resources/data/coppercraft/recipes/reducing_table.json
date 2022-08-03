@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "*": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "pattern":[
+    " # ",
+    "* *",
+    " # "
+  ],
+  "result": {
+    "item": "coppercraft:reducing_table"
+  }
+}

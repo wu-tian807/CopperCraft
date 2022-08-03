@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "@": {
+      "item": "minecraft:paper"
+    },
+    "!": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern":[
+    "!!!",
+    "!@!",
+    "!!!"
+  ],
+  "result": {
+    "item": "coppercraft:matchlock_gun_chip_empty"
+  }
+}

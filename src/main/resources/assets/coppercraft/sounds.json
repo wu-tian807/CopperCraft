@@ -1,0 +1,22 @@
+{
+  "reducing_working": {
+    "subtitle": "sounds.block.reducing.working",
+    "sounds": [
+      {
+        "name": "coppercraft:reducing_working",
+        "stream": true
+      }
+    ],
+    "category": "block"
+  },
+  "shoot": {
+    "subtitle": "sounds.block.shoot",
+    "sounds": [
+      {
+        "name": "coppercraft:shoot",
+        "stream": true
+      }
+    ],
+    "category": "player"
+  }
+}

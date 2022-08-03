@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "coppercraft:copper_pickaxe"
+    },
+    {
+      "item": "coppercraft:copper_shovel"
+    },
+    {
+      "item": "coppercraft:copper_axe"
+    },
+    {
+      "item": "coppercraft:copper_hoe"
+    },
+    {
+      "item": "coppercraft:copper_sword"
+    },
+    {
+      "item": "coppercraft:copper_helmet"
+    },
+    {
+      "item": "coppercraft:copper_chestplate"
+    },
+    {
+      "item": "coppercraft:copper_leggings"
+    },
+    {
+      "item": "coppercraft:copper_boots"
+    },
+    {
+      "item": "coppercraft:copper_horse_armor"
+    },
+    {
+      "item": "coppercraft:copper_pickaxe_corrosion"
+    },
+    {
+      "item": "coppercraft:copper_shovel_corrosion"
+    },
+    {
+      "item": "coppercraft:copper_axe_corrosion"
+    },
+    {
+      "item": "coppercraft:copper_hoe_corrosion"
+    },
+    {
+      "item": "coppercraft:copper_pickaxe_corrosion_one"
+    },
+    {
+      "item": "coppercraft:copper_shovel_corrosion_one"
+    },
+    {
+      "item": "coppercraft:copper_axe_corrosion_one"
+    },
+    {
+      "item": "coppercraft:copper_hoe_corrosion_one"
+    },
+    {
+      "item": "coppercraft:copper_pickaxe_corrosion_two"
+    },
+    {
+      "item": "coppercraft:copper_shovel_corrosion_two"
+    },
+    {
+      "item": "coppercraft:copper_axe_corrosion_two"
+    },
+    {
+      "item": "coppercraft:copper_hoe_corrosion_two"
+    },
+    {
+      "item": "coppercraft:copper_helmet_corrosion"
+    },
+    {
+      "item": "coppercraft:copper_chestplate_corrosion"
+    },
+    {
+      "item": "coppercraft:copper_leggings_corrosion"
+    },
+    {
+      "item": "coppercraft:copper_boots_corrosion"
+    }
+  ],
+  "result": "coppercraft:copper_nugget"
+}

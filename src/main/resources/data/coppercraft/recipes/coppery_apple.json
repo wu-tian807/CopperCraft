@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "group": "coppery_apple",
+  "key":{
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "*": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern":[
+    "###",
+    "#*#",
+    "###"
+  ],
+  "result": {
+    "item": "coppercraft:coppery_apple"
+  }
+}

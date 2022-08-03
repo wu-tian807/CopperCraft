@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "*": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern":[
+    "   ",
+    "*#*",
+    "   "
+  ],
+  "result": {
+    "item": "coppercraft:netherite_iron_ingot"
+  }
+}

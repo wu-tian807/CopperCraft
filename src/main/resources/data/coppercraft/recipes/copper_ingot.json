@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "*": {
+      "item": "coppercraft:copper_nugget"
+    }
+  },
+  "pattern":[
+    "***",
+    "***",
+    "***"
+  ],
+  "result": {
+    "item": "minecraft:copper_ingot"
+  }
+}

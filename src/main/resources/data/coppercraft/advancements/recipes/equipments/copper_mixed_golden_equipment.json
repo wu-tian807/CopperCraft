@@ -1,0 +1,50 @@
+{
+  "parent": "coppercraft:recipes/root",
+  "criteria": {
+    "has_copper_mixed_gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "coppercraft:copper_mixed_gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "coppercraft:copper_mixed_golden_pickaxe_smithing",
+        "recipe": "coppercraft:copper_mixed_golden_axe_smithing",
+        "recipe": "coppercraft:copper_mixed_golden_shovel_smithing",
+        "recipe": "coppercraft:copper_mixed_golden_hoe_smithing",
+        "recipe": "coppercraft:copper_mixed_golden_helmet_smithing",
+        "recipe": "coppercraft:copper_mixed_golden_chestplate_smithing",
+        "recipe": "coppercraft:copper_mixed_golden_leggings_smithing",
+        "recipe": "coppercraft:copper_mixed_golden_boots_smithing",
+        "recipe": "coppercraft:copper_mixed_golden_sword_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_copper_mixed_gold_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "coppercraft:copper_mixed_golden_pickaxe_smithing",
+      "coppercraft:copper_mixed_golden_axe_smithing",
+      "coppercraft:copper_mixed_golden_shovel_smithing",
+      "coppercraft:copper_mixed_golden_hoe_smithing",
+      "coppercraft:copper_mixed_golden_helmet_smithing",
+      "coppercraft:copper_mixed_golden_chestplate_smithing",
+      "coppercraft:copper_mixed_golden_leggings_smithing",
+      "coppercraft:copper_mixed_golden_boots_smithing",
+      "coppercraft:copper_mixed_golden_sword_smithing"
+    ]
+  }
+}

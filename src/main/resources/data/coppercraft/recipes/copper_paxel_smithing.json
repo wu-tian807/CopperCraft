@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "coppercraft:copper_axe"
+  },
+  "base": {
+    "item": "coppercraft:copper_pickaxe"
+  },
+  "result": {
+    "item": "coppercraft:copper_paxel"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "group": "coppery_apple",
+  "key":{
+    "#": {
+      "item": "minecraft:copper_block"
+    },
+    "*": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern":[
+    "###",
+    "#*#",
+    "###"
+  ],
+  "result": {
+    "item": "coppercraft:enchanted_coppery_apple"
+  }
+}

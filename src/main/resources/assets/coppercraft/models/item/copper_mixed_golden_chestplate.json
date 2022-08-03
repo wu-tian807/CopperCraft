@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures":
+  {
+    "layer0": "coppercraft:item/copper_mixed_golden_chestplate"
+  }
+}

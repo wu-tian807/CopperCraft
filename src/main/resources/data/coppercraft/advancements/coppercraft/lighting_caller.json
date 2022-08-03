@@ -1,0 +1,38 @@
+{
+  "parent": "coppercraft:coppercraft/root",
+  "criteria": {
+    "get_enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "minecraft:enchanted_book"
+            ],
+            "nbt": "{StoredEnchantments:[{id:\"coppercraft:lightning_caller\"}]}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.coppercraft.lightning_caller.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.coppercraft.lightning_caller.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_enchanted_book"
+    ]
+  ]
+}
