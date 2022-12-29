@@ -1,0 +1,37 @@
+{
+  "parent": "coppercraft:coppercraft/matchlock_gun",
+  "criteria": {
+    "get_matchlock_gun_ammo": {
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "coppercraft:matchlock_gun_ammo"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.coppercraft.matchlock_gun_ammo.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coppercraft:matchlock_gun_ammo"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.coppercraft.matchlock_gun_ammo.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_matchlock_gun_ammo"
+    ]
+  ]
+}

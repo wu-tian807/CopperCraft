@@ -1,0 +1,6 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+  "layer0": "coppercraft:item/iron_mixed_copper_pickaxe"
+ }
+}

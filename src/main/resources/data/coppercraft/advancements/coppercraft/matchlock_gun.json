@@ -1,0 +1,37 @@
+{
+  "parent": "coppercraft:coppercraft/root",
+  "criteria": {
+    "get_matchlock_gun": {
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "coppercraft:matchlock_gun"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.coppercraft.matchlock_gun.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coppercraft:matchlock_gun"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.coppercraft.matchlock_gun.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_matchlock_gun"
+    ]
+  ]
+}

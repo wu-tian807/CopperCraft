@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "*": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern":[
+    "*"
+  ],
+  "result": {
+    "item": "coppercraft:copper_nugget",
+    "count": 9
+  }
+}

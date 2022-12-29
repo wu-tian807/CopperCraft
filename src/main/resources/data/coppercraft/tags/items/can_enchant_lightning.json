@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values":[
+    "coppercraft:copper_sword",
+    "coppercraft:iron_mixed_copper_sword",
+    "coppercraft:copper_mixed_golden_sword"
+  ]
+}

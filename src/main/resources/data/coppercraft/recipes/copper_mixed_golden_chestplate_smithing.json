@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "coppercraft:copper_mixed_gold_ingot"
+  },
+  "base": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "result": {
+    "item": "coppercraft:copper_mixed_golden_chestplate"
+  }
+}

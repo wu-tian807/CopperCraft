@@ -1,0 +1,40 @@
+{
+  "parent": "coppercraft:coppercraft/coppery_apple",
+  "criteria": {
+    "get_enchanted_coppery_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "coppercraft:enchanted_coppery_apple"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.coppercraft.enchanted_coppery_apple.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "coppercraft:enchanted_coppery_apple"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.coppercraft.enchanted_coppery_apple.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_enchanted_coppery_apple"
+    ]
+  ],
+  "rewards":{
+    "experience": 15
+  }
+}

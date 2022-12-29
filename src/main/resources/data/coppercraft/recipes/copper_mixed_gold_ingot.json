@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "*": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern":[
+    "###",
+    "#*#",
+    "###"
+  ],
+  "result": {
+    "item": "coppercraft:copper_mixed_gold_ingot"
+  }
+}

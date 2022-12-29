@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values":[
+    "#minecraft:impermeable",
+    "#minecraft:wooden_trapdoors",
+    "minecraft:scaffolding",
+    "#minecraft:fence_gates",
+    "#forge:glass_panes",
+    "#forge:fence_gates"
+  ]
+}

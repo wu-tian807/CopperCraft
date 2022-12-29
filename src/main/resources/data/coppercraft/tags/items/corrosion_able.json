@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values":[
+    "coppercraft:copper_sword",
+    "coppercraft:copper_paxel",
+    "coppercraft:copper_paxel_corrosion",
+    "coppercraft:copper_paxel_corrosion_one",
+    "coppercraft:copper_helmet",
+    "coppercraft:copper_leggings",
+    "coppercraft:copper_chestplate",
+    "coppercraft:copper_boots",
+    "coppercraft:copper_pickaxe",
+    "coppercraft:copper_axe",
+    "coppercraft:copper_shovel",
+    "coppercraft:copper_hoe",
+    "coppercraft:copper_pickaxe_corrosion",
+    "coppercraft:copper_axe_corrosion",
+    "coppercraft:copper_shovel_corrosion",
+    "coppercraft:copper_hoe_corrosion",
+    "coppercraft:copper_pickaxe_corrosion_one",
+    "coppercraft:copper_axe_corrosion_one",
+    "coppercraft:copper_shovel_corrosion_one",
+    "coppercraft:copper_hoe_corrosion_one"
+  ]
+}

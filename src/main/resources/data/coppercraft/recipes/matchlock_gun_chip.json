@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "*": {
+      "item": "coppercraft:matchlock_gun_chip_empty"
+    },
+    "@": {
+      "item": "coppercraft:matchlock_gun_ammo"
+    }
+  },
+  "pattern":[
+    "@@@",
+    "@*@",
+    "@@@"
+  ],
+  "result": {
+    "item": "coppercraft:matchlock_gun_chip"
+  }
+}

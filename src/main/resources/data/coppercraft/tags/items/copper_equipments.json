@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values":[
+    "coppercraft:copper_sword",
+    "coppercraft:copper_paxel",
+    "coppercraft:copper_pickaxe",
+    "coppercraft:copper_axe",
+    "coppercraft:copper_shovel",
+    "coppercraft:copper_hoe",
+    "coppercraft:copper_helmet",
+    "coppercraft:copper_chestplate",
+    "coppercraft:copper_leggings",
+    "coppercraft:copper_boots",
+    "minecraft:copper_block",
+    "minecraft:cut_copper",
+    "minecraft:cut_copper_stairs",
+    "minecraft:cut_copper_slab",
+    "minecraft:waxed_copper_block",
+    "minecraft:waxed_cut_copper",
+    "minecraft:waxed_cut_copper_stairs",
+    "minecraft:waxed_cut_copper_slab"
+  ]
+}

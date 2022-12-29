@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "coppercraft:copper_mixed_golden_pickaxe"
+    },
+    {
+      "item": "coppercraft:copper_mixed_golden_shovel"
+    },
+    {
+      "item": "coppercraft:copper_mixed_golden_axe"
+    },
+    {
+      "item": "coppercraft:copper_mixed_golden_hoe"
+    },
+    {
+      "item": "coppercraft:copper_mixed_golden_sword"
+    },
+    {
+      "item": "coppercraft:copper_mixed_golden_helmet"
+    },
+    {
+      "item": "coppercraft:copper_mixed_golden_chestplate"
+    },
+    {
+      "item": "coppercraft:copper_mixed_golden_leggings"
+    },
+    {
+      "item": "coppercraft:copper_mixed_golden_boots"
+    }
+  ],
+  "result": "minecraft:gold_nugget"
+}

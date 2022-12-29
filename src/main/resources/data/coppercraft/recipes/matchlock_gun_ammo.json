@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "key":{
+    "*": {
+      "item": "minecraft:paper"
+    },
+    "@": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "+": {
+      "item": "minecraft:gunpowder"
+    },
+    "!": {
+      "item": "coppercraft:copper_nugget"
+    }
+  },
+  "pattern":[
+    "*@*",
+    "*+*",
+    "!+!"
+  ],
+  "result": {
+    "item": "coppercraft:matchlock_gun_ammo",
+    "count": 32
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "coppercraft:coppercraft/root",
+  "criteria": {
+    "get_enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "minecraft:enchanted_book"
+            ],
+            "nbt": "{StoredEnchantments:[{id:\"coppercraft:hasting\"}]}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.coppercraft.hasting.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.coppercraft.hasting.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_enchanted_book"
+    ]
+  ]
+}
